@@ -1,0 +1,77 @@
+
+/** Hover effects "Discover More About Me"-link on intro page **/
+
+.discoverMore:hover {
+    cursor: pointer;
+    background-color:#0b0b0b !important;
+}
+
+.discoverMore:hover svg {
+    transform: rotate(90deg);
+}
+
+/** Hover effects other links**/
+
+.contact-link:hover {
+    transform: scale(115%);
+}
+
+.cv-link:hover {
+    color: #ffc107 !important;
+}
+
+.nav-link:hover {
+    color: #198754 !important;
+}
+
+
+.project-link:hover h3 {
+    background-color: #f2f20f !important;
+    transform: scale(105%);
+}
+
+/** Transition of each link's hover effect **/
+
+.discoverMore svg, .discoverMore, .nav-link, .contact-link, .cv-link, .project-link {
+    transition: 800ms;
+}
+
+/** Giving the project images a grayscale to make clear that these are images, hover effect on mobile version **/
+
+.project-image {
+    filter: grayscale(70%);
+}
+
+.project-image:hover {
+    filter: grayscale(0);
+}
+
+/** Bootstrap's carousel is not so responsive, so we hide this in the mobile version and use a mobile friendly alternative instead **/
+
+.mobileProjects {
+    display: flex;
+    visibility: visible;
+}
+
+.fullscreenProjects {
+    display: none;
+    visibility: hidden;
+}
+
+/** Styles where build with a mobile first approach, these styles only apply on the full page version **/
+
+@media (min-width: 760px) {
+    .project-image:hover {
+        filter: grayscale(70%);
+    }
+
+    .fullscreenProjects {
+        display: flex;
+        visibility: visible;
+    }
+
+    .mobileProjects {
+        display: none;
+        visibility: hidden;
+    }
+}
