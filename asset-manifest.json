@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.abe41fde.css",
-    "main.js": "/portfolio/static/js/main.75a47038.js",
+    "main.js": "/portfolio/static/js/main.513599fc.js",
     "static/js/787.f0f95353.chunk.js": "/portfolio/static/js/787.f0f95353.chunk.js",
     "static/media/runapp.jpg": "/portfolio/static/media/runapp.614d5604394e1efb04a3.jpg",
     "static/media/findtvshow.jpg": "/portfolio/static/media/findtvshow.ec78d484d0923399a959.jpg",
     "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.b6fb8cf4972c167979b1.jpg",
-    "static/media/CV - Jonathan Rotstejn.pdf": "/portfolio/static/media/CV - Jonathan Rotstejn.9430c2667e19006b35a9.pdf",
+    "static/media/CV - Jonathan Rotstejn.pdf": "/portfolio/static/media/CV - Jonathan Rotstejn.0cef5a592062951ef134.pdf",
     "static/media/profile.png": "/portfolio/static/media/profile.3888ca8142167c3d2293.png",
     "static/media/github.png": "/portfolio/static/media/github.1d30eac2e027b7dae02f.png",
     "static/media/star.png": "/portfolio/static/media/star.5dd3e9e9ce4f9c436012.png",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.737f66c0af1832ba03f4.png",
     "index.html": "/portfolio/index.html",
     "main.abe41fde.css.map": "/portfolio/static/css/main.abe41fde.css.map",
-    "main.75a47038.js.map": "/portfolio/static/js/main.75a47038.js.map",
+    "main.513599fc.js.map": "/portfolio/static/js/main.513599fc.js.map",
     "787.f0f95353.chunk.js.map": "/portfolio/static/js/787.f0f95353.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abe41fde.css",
-    "static/js/main.75a47038.js"
+    "static/js/main.513599fc.js"
   ]
 }
