@@ -3,10 +3,10 @@ import FullscreenProjects from "./FullscreenProjects"
 
 const Projects = () => {
     return (
-        <div id="projects">
+        <section id="projects">
             <FullscreenProjects></FullscreenProjects>
             <MobileProjects></MobileProjects>
-        </div>
+        </section>
     )
 }
 

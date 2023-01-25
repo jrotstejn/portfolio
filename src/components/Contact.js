@@ -1,6 +1,5 @@
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import github from "../attachments/github.png";
 import linkedin from "../attachments/linkedin.png"
@@ -8,7 +7,7 @@ import ContactForm from './ContactForm';
 
 const Contact = () => {
     return (
-        <Container fluid className="bg-dark vh-100 px-0 d-flex flex-column justify-content-end" id="contact">
+        <section id="contact" className="bg-dark vh-100 px-0 d-flex flex-column justify-content-end">
             <ContactForm></ContactForm>
             <Row className='bg-success h-25 d-flex justify-content-evenly align-items-center border-top border-2 border-warning mx-0'>
                 <Col xs="2" md="1" className='contact-link'>
@@ -22,7 +21,7 @@ const Contact = () => {
                     </a>
                 </Col>
             </Row>
-        </Container>
+        </section>
     )
 }
 

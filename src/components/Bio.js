@@ -10,8 +10,8 @@ const Bio = () => {
                 I can create fully functional websites or applications with the use of HTML, CSS, JavaScript and some frameworks!
                 <br /> <br />
                 Because of my unconventional background I have a lot of experience with Team Collaboration and have a good understanding
-                of what positive Leadership stands for. On top of that I´m a lifelong learner who always wants to learn the newest
-                technologies and is open for new challenges!
+                of what positive Leadership stands for. On top of that I'm a lifelong learner who always wants to learn the newest
+                technologies and who's open for new challenges!
                 <br /> <br /> 
             </p>
             <p className='text-dark text-center fs-5 my-4 my-md-1 fw-bold'> 
