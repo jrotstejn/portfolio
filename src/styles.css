@@ -48,29 +48,29 @@
 
 /** Bootstrap's carousel is not so responsive, so we hide this in the mobile version and use a mobile friendly alternative instead **/
 
-.mobileProjects {
+.mobile {
     display: flex;
     visibility: visible;
 }
 
-.fullscreenProjects {
+.fullscreen {
     display: none;
     visibility: hidden;
 }
 
 /** Styles where build with a mobile first approach, these styles only apply on the full page version **/
 
-@media (min-width: 760px) {
+@media (min-width: 768px) {
     .project-image:hover {
         filter: grayscale(70%);
     }
 
-    .fullscreenProjects {
+    .fullscreen {
         display: flex;
         visibility: visible;
     }
 
-    .mobileProjects {
+    .mobile {
         display: none;
         visibility: hidden;
     }

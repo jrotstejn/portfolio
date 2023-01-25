@@ -1,9 +1,11 @@
-import {Col, Row, Image} from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Image from 'react-bootstrap/Image';
 import star from "../attachments/star.png";
 
 const Skills = () => {
     return (
-        <Col xs="11" md="7" lg="5">
+        <Col xs="11" md="7" lg="5" className='d-block fullscreen flex-column'>
             <h2 className='text-warning text-center mb-0 '>Skills</h2>
             <Row className='pt-lg-5 mx-0'>
                 <Col xs="7">

@@ -1,4 +1,7 @@
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 import profile from "../attachments/profile.png";
 
 const Intro = () => {

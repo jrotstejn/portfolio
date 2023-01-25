@@ -1,4 +1,7 @@
-import { Col, Row, Container, Image } from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 import github from "../attachments/github.png";
 import linkedin from "../attachments/linkedin.png"
 import ContactForm from './ContactForm';

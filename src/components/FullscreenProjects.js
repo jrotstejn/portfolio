@@ -3,9 +3,9 @@ import runapp from '../attachments/runapp.jpg'
 import portfolio from '../attachments/portfolio.jpg'
 import findtvshow from '../attachments/findtvshow.jpg'
 
-function SliderProjects() {
+function FullscreenProjects() {
   return (
-    <Carousel variant="dark" className='vh-100 bg-success align-items-center fullscreenProjects'>
+    <Carousel variant="dark" className='vh-100 bg-success align-items-center fullscreen'>
       <Carousel.Item>
         <img
           className="d-block w-75 mx-auto border border-dark border-3 project-image"
@@ -57,4 +57,4 @@ function SliderProjects() {
   );
 }
 
-export default SliderProjects;
+export default FullscreenProjects;

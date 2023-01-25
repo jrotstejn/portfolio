@@ -1,11 +1,12 @@
-import { Container } from "react-bootstrap"
+import Container from "react-bootstrap/Container"
 import runapp from '../attachments/runapp.jpg'
 import portfolio from '../attachments/portfolio.jpg'
 import findtvshow from '../attachments/findtvshow.jpg'
 
 const MobileProjects = () => {
     return (
-        <Container fluid variant="dark" id="slider" className='vh-100 bg-success mobileProjects flex-column justify-content-center'>
+        <Container fluid variant="dark" id="slider" className='vh-100 bg-success mobile flex-column justify-content-center'>
+            <h2 className='text-warning text-center mb-5 mb-sm-2'>Projects</h2>
             <a href="https://jrotstejn.github.io/runapp" target="_blank" rel="noreferrer" className="w-75 mx-auto">
                 <img
                     className="d-block border border-dark border-3 mb-1 project-image w-100"

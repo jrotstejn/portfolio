@@ -1,10 +1,10 @@
 import MobileProjects from "./MobileProjects"
-import SliderProjects from "./SliderProjects"
+import FullscreenProjects from "./FullscreenProjects"
 
 const Projects = () => {
     return (
         <div id="projects">
-            <SliderProjects></SliderProjects>
+            <FullscreenProjects></FullscreenProjects>
             <MobileProjects></MobileProjects>
         </div>
     )
